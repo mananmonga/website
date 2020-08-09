@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Arora's homepage</title>
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+        body {
+            font-family: sans-serif;
+            width: 100%;
+            margin: 0px;
+        }
+
+        .base {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+        }
+
+        .nav-bar {
+            flex: 1;
+            /* margin: auto; */
+            background-color: #202020;
+            color: white;
+            text-align: center;
+            height: 100%;
+        }
+
+        .content {
+            flex: 3;
+            margin: 10px;
+            /* padding: 10px; */
+            height: 100%;
+        }
+
+        .hello {
+            max-width: 800px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="base">
+        <div class="nav-bar">
+            <div class="image"><img src="assets/avatar.jpeg" alt="avatar" width="200px" ></div>
+            <div class="logo">Shubham Arora</div>
+            <div class="subtext">Software Systems Engineer</div>
+            <div class="links">
+                <ul>
+                    <li>Home</li>
+                    <li>Email</li>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Posts</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <p class="hello">
+                Hello! <br><br>
+
+                I am an MS student in Computer Engineering at Boston University. In the past, I have worked as a
+                Software
+                Engineer
+                in Arcesium India Pvt Ltd. I did my B.E. in Computer Engineering from Netaji Subhas Institute Of
+                Technology,
+                Delhi.
+            </p>
+
+            <div class="current-projects">
+                <h2>Current Projects</h1>
+                    <ol>
+                        <li>CPISync</li>
+                        <li>Transactions On Ray</li>
+                    </ol>
+            </div>
+
+            <h2>Past Projects</h1>
+                <div class="past-projects">
+                    <ol>
+                        <li>Digital Equity</li>
+                    </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
